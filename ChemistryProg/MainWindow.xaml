@@ -1,0 +1,87 @@
+﻿<Window x:Class="ChemistryProg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:commands="clr-namespace:ChemistryProg.Commands" xmlns:local="clr-namespace:ChemistryProg" xmlns:processing="clr-namespace:ChemistryProg.InformationMenu"
+        mc:Ignorable="d"
+        Title="Crystal3D" Height="900" Width="1280"
+        Background="LightGray"
+        Loaded="Window_Loaded">
+
+    <Grid x:Name="mainGrid" Margin="0,0,0,9">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.Column="0" Grid.ColumnSpan="4" Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Project">
+                <MenuItem Header="Save Screenshot" Command="commands:CustomCommands.TakeScreenshoot"/>
+                <MenuItem Header="Exit" Click="CloseClick"/>
+            </MenuItem>
+            <MenuItem Header="Projection" >
+                <MenuItem Header="XY" Click="XY_ProjectionClick"/>
+                <MenuItem Header="XZ" Click="XZ_ProjectionClick"/>
+            </MenuItem>
+            
+        </Menu>
+        <Grid  Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2" Mouse.MouseMove="Monitor_MouseMove" Background="White" MouseDown="Monitor_MouseDown" >
+
+            <Viewport3D x:Name="monitor"/>
+            <Canvas x:Name="monitorCanvas"/>
+            <Popup x:Name="popup1" StaysOpen="False" Placement="Mouse" MaxWidth="180"
+                 AllowsTransparency="True"  >
+                <TextBlock TextWrapping="Wrap" Width="180" Background="LightPink" Opacity="0.8" >
+                </TextBlock>
+            </Popup>
+        </Grid>
+        <TabControl Grid.Row="1" Grid.RowSpan="2" Grid.Column="3">
+            <TabItem Header="Info">
+                <processing:InfoControl />
+            </TabItem>
+            <TabItem Header="Relative">
+                <DataGrid ItemsSource="{Binding Path=RelativeList, Mode=OneWay}" IsReadOnly="True" SelectionMode="Single" AutoGenerateColumns="True" ColumnWidth="*"/>
+            </TabItem>
+            <TabItem Header="Real">
+                <DataGrid ItemsSource="{Binding Path=RealList, Mode=OneWay}"  IsReadOnly="True" AutoGenerateColumns="True" ColumnWidth="*" />
+            </TabItem>
+            <TabItem Header="Distance">
+                <DataGrid ItemsSource="{Binding Path=DistanceList, Mode=OneWay}"  IsReadOnly="True" AutoGenerateColumns="True" ColumnWidth="*" />
+            </TabItem>
+            <TabItem Header="Angle">
+                <DataGrid ItemsSource="{Binding Path=AngleList, Mode=OneWay}" IsReadOnly="True" AutoGenerateColumns="True" ColumnWidth="*" />
+            </TabItem>
+            <TabItem Header="FactCharge">
+                <DataGrid ItemsSource="{Binding Path=FactChargeList, Mode=OneWay}"  IsReadOnly="True" AutoGenerateColumns="True" ColumnWidth="*" />
+            </TabItem>
+            <TabItem Header="All DIstance">
+                <DataGrid ItemsSource="{Binding Path=AllDistanceList, Mode=OneWay}"  IsReadOnly="True" AutoGenerateColumns="True" ColumnWidth="*" />
+            </TabItem>
+            <TabItem Header="Polyhedra Values">
+                <DataGrid ItemsSource="{Binding Path=PolyhedraList, Mode=OneWay}"  IsReadOnly="True" AutoGenerateColumns="True" ColumnWidth="*" />
+            </TabItem>
+        </TabControl>
+        <Label Grid.Row="3" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Content="Группа" Height="40" VerticalAlignment="Center"/>
+        <ComboBox VerticalContentAlignment="Center" ItemsSource="{Binding Path=GroupsList, Mode=TwoWay}" Grid.Row="3" Grid.Column="1" Margin="0,0,10,0" SelectionChanged="Group_Selected" Height="30" VerticalAlignment="Center"/>
+
+
+        <Label Grid.Row="4" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Content="Соединение" Margin="0,5,0,0"/>
+        <ComboBox VerticalContentAlignment="Center" ItemsSource="{Binding Path=CompoundsList, Mode=TwoWay}" Grid.Row="4" Grid.Column="1" Margin="0,5,10,5" SelectionChanged="Compound_Selected"/>
+        <Button Content="{Binding Path=DistanceMesurer.ButtonName, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" Grid.Column="2" Grid.Row="3"  Click="DistanceButton_Click" Height="30" Margin="5,0,5,0" VerticalAlignment="Center" />
+        <Button Content="{Binding Path=AngleMesurer.ButtonName, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" Grid.Column="2"  Grid.Row="4" Click="AngleButton_Click" Margin="5,5,5,5"/>
+        <Button Content="Button" Grid.Column="3" HorizontalAlignment="Left" Margin="227,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="76" Height="25" Click="Button_Click_1"/>
+        <TextBox x:Name="PathTB" Grid.Column="3" IsReadOnly="False"  HorizontalAlignment="Left" Height="23" Margin="85,10,0,0" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Top" Width="328"/>
+    </Grid>
+
+</Window>

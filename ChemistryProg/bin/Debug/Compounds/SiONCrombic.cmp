@@ -1,0 +1,431 @@
+{
+	"Name": "SiONCrombic",
+	"GroupName": "Pnma",
+	"Params": {
+		"xTransform": "20.022,0,0",
+		"yTransform": "1.21842209173557E-15,19.899,0",
+		"zTransform": "8.19445341660244E-16,8.19445341660244E-16,13.383",
+		"A": 20.022,
+		"B": 19.899,
+		"C": 13.383,
+		"Alpha": 90.0,
+		"Beta": 90.0,
+		"Gamma": 90.0,
+		"Volume": 5332.025122974
+	},
+	"Atoms": [
+		{
+			"Name": "Si1",
+			"Center": "0.42238,0.0565,-0.33598",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si2",
+			"Center": "0.30716,0.02772,-0.1893",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si3",
+			"Center": "0.27911,0.06127,0.0312",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si4",
+			"Center": "0.12215,0.06298,0.0267",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si5",
+			"Center": "0.07128,0.02722,-0.18551",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si6",
+			"Center": "0.18641,0.05896,-0.32818",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si7",
+			"Center": "0.42265,-0.1725,-0.32718",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si8",
+			"Center": "0.30778,-0.13016,-0.18548",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si9",
+			"Center": "0.27554,-0.17279,0.03109",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si10",
+			"Center": "0.12058,-0.1731,0.02979",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si11",
+			"Center": "0.07044,-0.13037,-0.182",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "Si12",
+			"Center": "0.18706,-0.17327,-0.31933",
+			"R": 0.26,
+			"OxidationState": 4,
+			"Color": "#FF0000FF"
+		},
+		{
+			"Name": "O1",
+			"Center": "0.3726,0.0534,-0.2442",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O2",
+			"Center": "0.3084,0.0587,-0.0789",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O3",
+			"Center": "0.2007,0.0592,0.0289",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O4",
+			"Center": "0.0969,0.0611,-0.0856",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O5",
+			"Center": "0.1149,0.0541,-0.2763",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O6",
+			"Center": "0.2435,0.0553,-0.246",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O7",
+			"Center": "0.3742,-0.1561,-0.2372",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O8",
+			"Center": "0.3085,-0.1552,-0.0728",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O9",
+			"Center": "0.198,-0.1554,0.0288",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O10",
+			"Center": "0.091,-0.1614,-0.0777",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O11",
+			"Center": "0.1169,-0.1578,-0.2694",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O12",
+			"Center": "0.2448,-0.1594,-0.2422",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O13",
+			"Center": "0.3047,-0.051,-0.1866",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O14",
+			"Center": "0.0768,-0.0519,-0.1769",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O15",
+			"Center": "0.4161,0.1276,-0.3896",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O16",
+			"Center": "0.4086,-0.0017,-0.4136",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O17",
+			"Center": "0.402,-0.1314,-0.4239",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O18",
+			"Center": "0.1886,0.1298,-0.3836",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O19",
+			"Center": "0.194,0.0007,-0.4082",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O20",
+			"Center": "0.1951,-0.1291,-0.419",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O21",
+			"Center": "-0.0037,0.0502,-0.208",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O22",
+			"Center": "-0.004,-0.1528,-0.2078",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O23",
+			"Center": "0.4192,-0.25,-0.354",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O24",
+			"Center": "0.1884,-0.25,-0.3538",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O25",
+			"Center": "0.2883,-0.25,0.0579",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "O26",
+			"Center": "0.1085,-0.25,0.0611",
+			"R": 1.35,
+			"OxidationState": 2,
+			"Color": "#FFFF0000"
+		},
+		{
+			"Name": "N1",
+			"Center": "0.4762,0.25,-0.1095",
+			"R": 1.48,
+			"OxidationState": 4,
+			"Color": "#FF008000"
+		},
+		{
+			"Name": "C1",
+			"Center": "0.495,0.233,-0.221",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C2",
+			"Center": "0.568,0.25,-0.241",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C3",
+			"Center": "0.578,0.25,-0.362",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C4",
+			"Center": "0.399,0.274,-0.1",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C5",
+			"Center": "0.355,0.228,-0.15",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C6",
+			"Center": "0.278,0.25,-0.147",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C7",
+			"Center": "0.505,0.319,-0.089",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C8",
+			"Center": "0.473,0.334,-0.019",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C9",
+			"Center": "0.496,0.412,0.045",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C10",
+			"Center": "0.508,0.199,-0.032",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C11",
+			"Center": "0.49,0.124,-0.045",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C12",
+			"Center": "0.529,0.088,0.033",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C13",
+			"Center": "0.413,0.229,-0.166",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C14",
+			"Center": "0.355,0.272,-0.15",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C15",
+			"Center": "0.285,0.25,-0.195",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C16",
+			"Center": "0.534,0.279,-0.185",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C17",
+			"Center": "0.546,0.225,-0.263",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C18",
+			"Center": "0.601,0.25,-0.332",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C19",
+			"Center": "0.468,0.315,-0.06",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		},
+		{
+			"Name": "C20",
+			"Center": "0.516,0.335,0.02",
+			"R": 0.15,
+			"OxidationState": 4,
+			"Color": "#FFFFFF00"
+		}
+	]
+}
